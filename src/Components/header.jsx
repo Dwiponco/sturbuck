@@ -11,7 +11,7 @@ function Header() {
     }
     return (
         <header className="header">
-            <a href="/" ><img src={logo} className="logo"/></a>
+            <a href="/" ><img src={logo} alt="" className="logo"/></a>
             <div className="toggle" onClick={toggleMenu}></div>
             <ul className="navigation">
                 <li><a href="/">Home</a></li>
