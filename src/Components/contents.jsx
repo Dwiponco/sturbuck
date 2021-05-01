@@ -34,9 +34,9 @@ function Contents(props) {
             </div>
         </div>
         <ul className="thumb">
-            <li><img src={thumb} onClick={()=>imgSlider(img1,"#017143")}/></li>
-            <li><img src={thumb2} onClick={()=>imgSlider(img2,"#eb7495")}/></li>
-            <li><img src={thumb3} onClick={()=>imgSlider(img3,"#d752b1")}/></li>
+            <li><img src={thumb} alt="" onClick={()=>imgSlider(img1,"#017143")}/></li>
+            <li><img src={thumb2} alt="" onClick={()=>imgSlider(img2,"#eb7495")}/></li>
+            <li><img src={thumb3} alt="" onClick={()=>imgSlider(img3,"#d752b1")}/></li>
         </ul>
         <ul className="sci">
             <li><a href="/"><img src={facebook} alt=""/></a></li>
